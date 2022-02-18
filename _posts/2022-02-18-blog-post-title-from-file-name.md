@@ -1,3 +1,3 @@
-# Header 1
-Test1
-Test2
+# Hey there!
+
+Hey there people! With this blog, I am going to share my knowledge.
