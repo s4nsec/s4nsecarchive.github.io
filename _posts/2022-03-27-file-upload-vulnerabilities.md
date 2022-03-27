@@ -1,3 +1,5 @@
+# File upload vulnerabilities
+
 To read contents of an arbitrary file:
 ```Php
 <?php echo file_get_contents('/path/to/target/file'); ?>
