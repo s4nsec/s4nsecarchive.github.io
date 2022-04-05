@@ -24,7 +24,7 @@ Boom!
 ## Web shell upload via path traversal
 
 We first try to upload the file and see the response:
-![test](https://github.com/s4nsec/images/blob/main/Pasted%20image%2020220327214544.png)
+![test](https://drive.google.com/file/d/10m_voQnpBi0lcyTJM5MsIHxhaUOX96IT/view?usp=sharing)
 
 Now we try directory traversal to see if we can save the file to another directory:
 ![[Pasted image 20220327214701.png]]
