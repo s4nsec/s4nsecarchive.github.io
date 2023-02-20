@@ -5,7 +5,7 @@ First, I tried "Send SMS" functionality and found out that you can trigger XSS i
 ![image](https://user-images.githubusercontent.com/99656904/220202825-22385a64-37ee-45bd-9357-0a4aa6850a34.png)
 
 Secondly, there was a file upload functionality on the web interface.
-If you uploaded a file with a name like "<script>alert('XSS')</script>.png", then when uploaded, the interface would try to display the file's name and trigger XSS:  
+If you uploaded a file with a name like "<\script\>alert('XSS')</script>.png", then when uploaded, the interface would try to display the file's name and trigger XSS:  
 ![image](https://user-images.githubusercontent.com/99656904/220203428-d6199044-4028-4285-acf9-add0dc3d08ae.png)
 
 I emailed the vendor regarding the vulnerabilities, however, could not get a response...
