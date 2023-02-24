@@ -1,3 +1,5 @@
+# IRZ RUH2 GSM Router XSS vulnerability
+
 ### Affected Product
 IRZ RUH2 GSM ROUTER
 
